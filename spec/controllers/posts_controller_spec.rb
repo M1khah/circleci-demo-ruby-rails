@@ -31,7 +31,7 @@ RSpec.describe PostsController, type: :controller do
   let(:valid_attributes) {
     {
       title: "A new blog post",
-      body: "The body of the post"
+      body: nil
     }
   }
 
